@@ -1,0 +1,18 @@
+[shell]
+program = "/opt/homebrew/bin/nu"
+
+[window]
+padding = { x = 10, y = 10 }
+decorations = "Buttonless"
+opacity = 0.8
+blur = true
+option_as_alt = "Both"
+
+[font]
+size = 20
+
+[keyboard]
+bindings = [
+{ key = "N", mods = "command|Shift", action = "CreateNewWindow" },
+{ key = "F", mods = "command|Shift", action = "ToggleMaximized"}
+]
